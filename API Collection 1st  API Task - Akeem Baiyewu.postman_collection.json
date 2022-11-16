@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "ac5a7d46-86cc-41e9-83cb-c87df94e5ea8",
-		"name": "API Collection - Akeem Baiyewu",
+		"name": "API Collection 1st  API Task - Akeem Baiyewu",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "24186853"
 	},
@@ -65,7 +65,9 @@
 									"\r",
 									"pm.test(\"Status code name should have an OK string\", function () {\r",
 									"    pm.response.to.have.status(\"OK\");\r",
-									"});"
+									"});\r",
+									"\r",
+									""
 								],
 								"type": "text/javascript"
 							}
@@ -227,12 +229,12 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"Status code should be 401\", function () {\r",
-									"    pm.response.to.have.status(401);\r",
+									"pm.test(\"Status code should be 201\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
 									"});\r",
 									"\r",
-									"pm.test(\"Status code name should have a Unauthorized string\", function () {\r",
-									"    pm.response.to.have.status(\"Unauthorized\");\r",
+									"pm.test(\"Status code name should have a Created string\", function () {\r",
+									"    pm.response.to.have.status(\"Created\");\r",
 									"});"
 								],
 								"type": "text/javascript"
@@ -245,7 +247,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "03c5abfe090876ab74a2a2ac4c079174a35fd88c9b88cd2164ff4b9d56c31d6c",
+									"value": "67a642d965b6ca80c2bb34398535f10ffa7e10b119b0556735b9bc7d91ec4f4f",
 									"type": "string"
 								}
 							]
@@ -288,12 +290,12 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"Status code should be 401\", function () {\r",
-									"    pm.response.to.have.status(401);\r",
+									"pm.test(\"Status code should be 201\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
 									"});\r",
 									"\r",
-									"pm.test(\"Status code name should have a Unauthorized string\", function () {\r",
-									"    pm.response.to.have.status(\"Unauthorized\");\r",
+									"pm.test(\"Status code name should have a Created string\", function () {\r",
+									"    pm.response.to.have.status(\"Created\");\r",
 									"});"
 								],
 								"type": "text/javascript"
@@ -306,7 +308,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "03c5abfe090876ab74a2a2ac4c079174a35fd88c9b88cd2164ff4b9d56c31d6c",
+									"value": "67a642d965b6ca80c2bb34398535f10ffa7e10b119b0556735b9bc7d91ec4f4f",
 									"type": "string"
 								}
 							]
@@ -349,12 +351,12 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"Status code should be 401\", function () {\r",
-									"    pm.response.to.have.status(401);\r",
+									"pm.test(\"Status code should be 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
 									"});\r",
 									"\r",
-									"pm.test(\"Status code name should have a Unauthorized string\", function () {\r",
-									"    pm.response.to.have.status(\"Unauthorized\");\r",
+									"pm.test(\"Status code name should have an OK string\", function () {\r",
+									"    pm.response.to.have.status(\"OK\");\r",
 									"});"
 								],
 								"type": "text/javascript"
@@ -370,7 +372,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "03c5abfe090876ab74a2a2ac4c079174a35fd88c9b88cd2164ff4b9d56c31d6c",
+									"value": "67a642d965b6ca80c2bb34398535f10ffa7e10b119b0556735b9bc7d91ec4f4f",
 									"type": "string"
 								}
 							]
@@ -413,12 +415,12 @@
 							"listen": "test",
 							"script": {
 								"exec": [
-									"pm.test(\"Status code should be 401\", function () {\r",
-									"    pm.response.to.have.status(401);\r",
+									"pm.test(\"Status code should be 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
 									"});\r",
 									"\r",
-									"pm.test(\"Status code name should have a Unauthorized string\", function () {\r",
-									"    pm.response.to.have.status(\"Unauthorized\");\r",
+									"pm.test(\"Status code name should have an OK string\", function () {\r",
+									"    pm.response.to.have.status(\"OK\");\r",
 									"});"
 								],
 								"type": "text/javascript"
@@ -434,7 +436,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "03c5abfe090876ab74a2a2ac4c079174a35fd88c9b88cd2164ff4b9d56c31d6c",
+									"value": "67a642d965b6ca80c2bb34398535f10ffa7e10b119b0556735b9bc7d91ec4f4f",
 									"type": "string"
 								}
 							]
@@ -465,7 +467,7 @@
 							"variable": [
 								{
 									"key": "orderId",
-									"value": "bl8ZbxUCq59bH8DyYWvjo"
+									"value": "WEL8XrBhGZviDbhwG7jQf"
 								}
 							]
 						}

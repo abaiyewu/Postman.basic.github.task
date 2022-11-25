@@ -1,0 +1,744 @@
+{
+	"id": "0c594b6a-c7c0-4fa5-a1bc-a1975d27d96c",
+	"name": "API_Runner_Task_9_Akeem Baiyewu",
+	"timestamp": "2022-11-24T20:49:13.628Z",
+	"collection_id": "24186853-51a1b984-e35b-408d-9545-ccbca81abaea",
+	"folder_id": 0,
+	"environment_id": "24186853-d960f969-3161-40e7-8f72-7b7c81c866af",
+	"totalPass": 71,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "9e27472a-d53a-4257-989f-15b564f071f2",
+			"name": "Get All Entries",
+			"url": "https://demo.fusio-project.org/index.php",
+			"time": 616,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true,
+				"Confirm that the Apiversion should be 6.3.8.0": true,
+				"Confirm that the title should be Fusio": true,
+				"Confirm that the Payment Currency should be EUR": true,
+				"Confirm that the Categories should contain authorization": true,
+				"Confirm that the Categories should contain system": true,
+				"Confirm that the Categories should contain consumer": true,
+				"Confirm that the Categories should contain backend": true,
+				"Confirm that the Categories should contain default": true,
+				"Confirm that the scopes should contain default": true,
+				"Confirm that apps should contain https://demo.fusio-project.org/apps/developer": true,
+				"Confirm that documentation should contain https://demo.fusio-project.org/apps/documentation": true,
+				"Confirm that fusio should contain https://demo.fusio-project.org/apps/fusio": true,
+				"Confirm that rel under links should contain root": true,
+				"Confirm that href under links should contain https://demo.fusio-project.org/": true,
+				"Confirm that rel under links should contain openapi": true,
+				"Confirm that href under links should contain https://demo.fusio-project.org/system/export/openapi/*/*/": true,
+				"Confirm that rel under links should contain documentation": true,
+				"Confirm that href under links should contain https://demo.fusio-project.org/system/doc": true,
+				"Confirm that rel under links should contain route": true,
+				"Confirm that href under links should contain https://demo.fusio-project.org/system/route": true,
+				"Confirm that rel under links should contain health": true,
+				"Confirm that href under links should contain https://demo.fusio-project.org/system/health": true,
+				"Confirm that rel under links should contain jsonrpc": true,
+				"Confirm that href under links should contain https://demo.fusio-project.org/system/jsonrpc": true,
+				"Confirm that rel under links should contain oauth2": true,
+				"Confirm that href under links should contain https://demo.fusio-project.org/authorization/token": true,
+				"Confirm that rel under links should contain whoami": true,
+				"Confirm that href under links should contain https://demo.fusio-project.org/authorization/whoami": true,
+				"Confirm that rel under links should contain about": true,
+				"Confirm that href under links should contain https://www.fusio-project.org": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the Apiversion should be 6.3.8.0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the title should be Fusio": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the Payment Currency should be EUR": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the Categories should contain authorization": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the Categories should contain system": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the Categories should contain consumer": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the Categories should contain backend": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the Categories should contain default": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the scopes should contain default": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that apps should contain https://demo.fusio-project.org/apps/developer": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that documentation should contain https://demo.fusio-project.org/apps/documentation": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that fusio should contain https://demo.fusio-project.org/apps/fusio": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that rel under links should contain root": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that href under links should contain https://demo.fusio-project.org/": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that rel under links should contain openapi": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that href under links should contain https://demo.fusio-project.org/system/export/openapi/*/*/": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that rel under links should contain documentation": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that href under links should contain https://demo.fusio-project.org/system/doc": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that rel under links should contain route": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that href under links should contain https://demo.fusio-project.org/system/route": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that rel under links should contain health": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that href under links should contain https://demo.fusio-project.org/system/health": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that rel under links should contain jsonrpc": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that href under links should contain https://demo.fusio-project.org/system/jsonrpc": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that rel under links should contain oauth2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that href under links should contain https://demo.fusio-project.org/authorization/token": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that rel under links should contain whoami": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that href under links should contain https://demo.fusio-project.org/authorization/whoami": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that rel under links should contain about": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that href under links should contain https://www.fusio-project.org": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				616
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true,
+					"Confirm that the Apiversion should be 6.3.8.0": true,
+					"Confirm that the title should be Fusio": true,
+					"Confirm that the Payment Currency should be EUR": true,
+					"Confirm that the Categories should contain authorization": true,
+					"Confirm that the Categories should contain system": true,
+					"Confirm that the Categories should contain consumer": true,
+					"Confirm that the Categories should contain backend": true,
+					"Confirm that the Categories should contain default": true,
+					"Confirm that the scopes should contain default": true,
+					"Confirm that apps should contain https://demo.fusio-project.org/apps/developer": true,
+					"Confirm that documentation should contain https://demo.fusio-project.org/apps/documentation": true,
+					"Confirm that fusio should contain https://demo.fusio-project.org/apps/fusio": true,
+					"Confirm that rel under links should contain root": true,
+					"Confirm that href under links should contain https://demo.fusio-project.org/": true,
+					"Confirm that rel under links should contain openapi": true,
+					"Confirm that href under links should contain https://demo.fusio-project.org/system/export/openapi/*/*/": true,
+					"Confirm that rel under links should contain documentation": true,
+					"Confirm that href under links should contain https://demo.fusio-project.org/system/doc": true,
+					"Confirm that rel under links should contain route": true,
+					"Confirm that href under links should contain https://demo.fusio-project.org/system/route": true,
+					"Confirm that rel under links should contain health": true,
+					"Confirm that href under links should contain https://demo.fusio-project.org/system/health": true,
+					"Confirm that rel under links should contain jsonrpc": true,
+					"Confirm that href under links should contain https://demo.fusio-project.org/system/jsonrpc": true,
+					"Confirm that rel under links should contain oauth2": true,
+					"Confirm that href under links should contain https://demo.fusio-project.org/authorization/token": true,
+					"Confirm that rel under links should contain whoami": true,
+					"Confirm that href under links should contain https://demo.fusio-project.org/authorization/whoami": true,
+					"Confirm that rel under links should contain about": true,
+					"Confirm that href under links should contain https://www.fusio-project.org": true
+				}
+			]
+		},
+		{
+			"id": "7b9ecebc-4682-48f6-b9bb-15da0af7c673",
+			"name": "Get Books",
+			"url": "https://simple-books-api.glitch.me/books?type=fiction",
+			"time": 1085,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true,
+				"Confirm that ID has a value of 1 under 0": true,
+				"Confirm that the name of the Book is The Russian under 0": true,
+				"Confirm that the type of the Book is Fiction under 0": true,
+				"Confirm that the Book being available is True under 0": true,
+				"Confirm that ID has a value of 3 under 1": true,
+				"Confirm that the name of the Book is The Vanishing Half under 1": true,
+				"Confirm that the type of the Book is Fiction under 1": true,
+				"Confirm that the Book being available is True under 1": true,
+				"Confirm that ID has a value of 4 under 2": true,
+				"Confirm that the name of the Book is The The Midnight Library under 2": true,
+				"Confirm that the type of the Book is Fiction under 2": true,
+				"Confirm that the Book being available is True under 2": true,
+				"Confirm that ID has a value of 6 under 3": true,
+				"Confirm that the name of the Book is Viscount Who Loved Me under 3": true,
+				"Confirm that the type of the Book is Fiction under 3": true,
+				"Confirm that the Book being available is True under 3": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that ID has a value of 1 under 0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the name of the Book is The Russian under 0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the type of the Book is Fiction under 0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the Book being available is True under 0": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that ID has a value of 3 under 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the name of the Book is The Vanishing Half under 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the type of the Book is Fiction under 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the Book being available is True under 1": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that ID has a value of 4 under 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the name of the Book is The The Midnight Library under 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the type of the Book is Fiction under 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the Book being available is True under 2": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that ID has a value of 6 under 3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the name of the Book is Viscount Who Loved Me under 3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the type of the Book is Fiction under 3": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that the Book being available is True under 3": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1085
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true,
+					"Confirm that ID has a value of 1 under 0": true,
+					"Confirm that the name of the Book is The Russian under 0": true,
+					"Confirm that the type of the Book is Fiction under 0": true,
+					"Confirm that the Book being available is True under 0": true,
+					"Confirm that ID has a value of 3 under 1": true,
+					"Confirm that the name of the Book is The Vanishing Half under 1": true,
+					"Confirm that the type of the Book is Fiction under 1": true,
+					"Confirm that the Book being available is True under 1": true,
+					"Confirm that ID has a value of 4 under 2": true,
+					"Confirm that the name of the Book is The The Midnight Library under 2": true,
+					"Confirm that the type of the Book is Fiction under 2": true,
+					"Confirm that the Book being available is True under 2": true,
+					"Confirm that ID has a value of 6 under 3": true,
+					"Confirm that the name of the Book is Viscount Who Loved Me under 3": true,
+					"Confirm that the type of the Book is Fiction under 3": true,
+					"Confirm that the Book being available is True under 3": true
+				}
+			]
+		},
+		{
+			"id": "bb60b62c-8753-41d6-8813-c74423008437",
+			"name": "Get Books - Valid Books",
+			"url": "https://simple-books-api.glitch.me/books?=",
+			"time": 248,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				248
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true
+				}
+			]
+		},
+		{
+			"id": "a24e10d1-7080-4287-9522-71e8635222e7",
+			"name": "Get Books - Invalid Books",
+			"url": "https://simple-books-api.glitch.me/books?id=999",
+			"time": 297,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				297
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true
+				}
+			]
+		},
+		{
+			"id": "d114bf1d-e2f6-4b2b-b510-6247325b9981",
+			"name": "Place a book order",
+			"url": "https://simple-books-api.glitch.me/orders?=",
+			"time": 440,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code should be 201": true,
+				"Status code name should have a Created string": true,
+				"Confirm that created has a value of True": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have a Created string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Confirm that created has a value of True": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				440
+			],
+			"allTests": [
+				{
+					"Status code should be 201": true,
+					"Status code name should have a Created string": true,
+					"Confirm that created has a value of True": true
+				}
+			]
+		},
+		{
+			"id": "99e30760-3e8d-491a-b6ad-680e4ce93418",
+			"name": "Get all orders",
+			"url": "https://simple-books-api.glitch.me/orders",
+			"time": 240,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				240
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true
+				}
+			]
+		},
+		{
+			"id": "e38eb3e0-aad5-4f49-af8b-dbcf5353d60a",
+			"name": "Get an order - Valid Order ID",
+			"url": "https://simple-books-api.glitch.me/orders/0BIyVvymhbgsTiIm23bRV",
+			"time": 253,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code should be 200": true,
+				"Status code name should have an OK string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have an OK string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				253
+			],
+			"allTests": [
+				{
+					"Status code should be 200": true,
+					"Status code name should have an OK string": true
+				}
+			]
+		},
+		{
+			"id": "54e0a030-1190-43df-8ea7-5ae3b656cba7",
+			"name": "Get an order - Invalid Order ID",
+			"url": "https://simple-books-api.glitch.me/orders/%7B%7BOdar%7D%7D",
+			"time": 690,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code should be 404": true,
+				"Status code name should have a Not Found string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have a Not Found string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				690
+			],
+			"allTests": [
+				{
+					"Status code should be 404": true,
+					"Status code name should have a Not Found string": true
+				}
+			]
+		},
+		{
+			"id": "71575829-a7bf-4503-bc4b-420e7012f279",
+			"name": "Get an order - Blank Order ID",
+			"url": "https://simple-books-api.glitch.me/orders/:orderId",
+			"time": 765,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code should be 404": true,
+				"Status code name should have a Not Found string": true
+			},
+			"testPassFailCounts": {
+				"Status code should be 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name should have a Not Found string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				765
+			],
+			"allTests": [
+				{
+					"Status code should be 404": true,
+					"Status code name should have a Not Found string": true
+				}
+			]
+		},
+		{
+			"id": "46d34257-afa5-43ac-bcfc-abcd436f39c5",
+			"name": "Delete an order - Using Valid Order ID",
+			"url": "https://simple-books-api.glitch.me/orders/0BIyVvymhbgsTiIm23bRV",
+			"time": 824,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true,
+				"Status code name has string OK": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string OK": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				824
+			],
+			"allTests": [
+				{
+					"Status code is 204": true,
+					"Status code name has string OK": true
+				}
+			]
+		},
+		{
+			"id": "63afc1e1-4f79-437e-a3a7-38e8e7375a16",
+			"name": "Delete an order - Using Invalid Order ID",
+			"url": "https://simple-books-api.glitch.me/orders/0BIyVvymhbgsTiIm23bRV",
+			"time": 273,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Status code name has string Not Found": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string Not Found": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				273
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Status code name has string Not Found": true
+				}
+			]
+		},
+		{
+			"id": "d412cd45-8044-4f79-add9-a6d61d75440b",
+			"name": "Delete an order - Using Blank Order ID",
+			"url": "https://simple-books-api.glitch.me/orders/:orderId",
+			"time": 252,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true,
+				"Status code name has string Not Found": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code name has string Not Found": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				252
+			],
+			"allTests": [
+				{
+					"Status code is 404": true,
+					"Status code name has string Not Found": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 5983,
+	"collection": {
+		"requests": [
+			{
+				"id": "9e27472a-d53a-4257-989f-15b564f071f2",
+				"method": "GET"
+			},
+			{
+				"id": "7b9ecebc-4682-48f6-b9bb-15da0af7c673",
+				"method": "GET"
+			},
+			{
+				"id": "bb60b62c-8753-41d6-8813-c74423008437",
+				"method": "GET"
+			},
+			{
+				"id": "a24e10d1-7080-4287-9522-71e8635222e7",
+				"method": "GET"
+			},
+			{
+				"id": "d114bf1d-e2f6-4b2b-b510-6247325b9981",
+				"method": "POST"
+			},
+			{
+				"id": "99e30760-3e8d-491a-b6ad-680e4ce93418",
+				"method": "GET"
+			},
+			{
+				"id": "e38eb3e0-aad5-4f49-af8b-dbcf5353d60a",
+				"method": "GET"
+			},
+			{
+				"id": "54e0a030-1190-43df-8ea7-5ae3b656cba7",
+				"method": "GET"
+			},
+			{
+				"id": "71575829-a7bf-4503-bc4b-420e7012f279",
+				"method": "GET"
+			},
+			{
+				"id": "46d34257-afa5-43ac-bcfc-abcd436f39c5",
+				"method": "DELETE"
+			},
+			{
+				"id": "63afc1e1-4f79-437e-a3a7-38e8e7375a16",
+				"method": "DELETE"
+			},
+			{
+				"id": "d412cd45-8044-4f79-add9-a6d61d75440b",
+				"method": "DELETE"
+			}
+		]
+	}
+}
